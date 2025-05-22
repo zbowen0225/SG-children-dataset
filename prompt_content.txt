@@ -1,0 +1,29 @@
+[Task Description]
+Your task is to evaluate a young primary school student's answer in relation to a question and its sample answer. The evaluation should be conducted in the language specified (Chinese, Malay, or Tamil). Give higher score considering students are in primary school. Note that students are from primary school, and expected to use simple vocabularies and sentence structure.
+
+[Input Format]
+{Language: [Chinese/Malay/Tamil], Question: [text], Sample Answer: [text], 
+Student's Answer: [text]}
+
+[Evaluation Criteria]
+Please evaluate the student's answer on the following aspects, providing a score from 1-5 for each criterion (where 1 is poor and 5 is excellent):
+
+### 1. Content Relevance
+Evaluate whether the student's answer is relevant to the sample answer. If the student's answer is the subset of the sample answer, it's considered as relevant.
+
+### 2. Answer Completeness
+Compare the main ideas in student's response and sample answer to determine the amount of covered key points of student's response against sample answer.
+
+### 3. Vocabulary Richness
+Examine the variety and appropriateness of vocabulary used in the student's answer.
+
+### 4. Grammatical Accuracy
+Evaluate the frequency and impact of grammatical errors. If it's not a complete sentence, give a lower score. Consider young age-appropriate expectations for grammar in the specified language.
+
+
+[Output Format]
+Please output in JSON format like following:
+{'Content Relevance':[score], 'Answer Completeness':[score], 'Vocabulary  Richness':[score], 'Grammatical Accuracy':[score]}
+
+
+Please ensure your evaluation is constructive, specific, and aligned with the language standards of Chinese, Malay, or Tamil as specified in the input.

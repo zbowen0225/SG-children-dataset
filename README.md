@@ -10,11 +10,10 @@ This repository includes Data Collection_Reading, Data Collection_Picture Descri
 
 # File Information
 
-## Data Collection_Reading:
-This file contains four sets of reading texts that students from primary school were required to read aloud in a controlled environment. The texts include a mix of vocabulary and are designed to align with the school curriculum.
+## LEARN MTL Data Collection
+This file contains reading and picture description materials used during data collection. The reading task contains four sets of reading texts that students from primary school were required to read aloud in a controlled environment. The texts include a mix of vocabulary and are designed to align with the school curriculum.
 
-## Data Collection_Picture Description:
-This file contains six different images, each accompanied by four to seven questions. The questions follow the 5W1H framework (Who, What, When, Where, Why, How) to encourage detailed responses and support language development.
+The picture description task contains six different images, each accompanied by four to seven questions. The questions follow the 5W1H framework (Who, What, When, Where, Why, How) to encourage detailed responses and support language development.
 
 ## prompt_content
 This file is the prompt we tuned to make automatic content assessment leveraging LLM's great ability to process text.
